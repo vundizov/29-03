@@ -31,24 +31,24 @@ while (count<10){
 printDelimiter()
 
 //метода массива
-// var fruits = ['banana','orange','melon', 67]
-// fruits.push('lemon','pineapple')
-// console.log(fruits)
-// var firstFruit = fruits.shift()
-// console.log(firstFruit)
-// fruits.unshift('qa')
-// console.log(fruits)
-// var fruit = fruits.pop()
-// console.log(fruits)
-// console.log(fruit)
-// var joinArr = fruits.join()
-// console.log(Array.from(joinArr))
-// console.log(Array.isArray(joinArr))
-// fruits.splice(0,3, 4)
-// console.log(fruits)
-// fruits.reverse()
-// console.log(fruits)
-// printDelimiter()
+var fruits = ['banana','orange','melon', 67]
+fruits.push('lemon','pineapple')
+console.log(fruits)
+var firstFruit = fruits.shift()
+console.log(firstFruit)
+fruits.unshift('qa')
+console.log(fruits)
+var fruit = fruits.pop()
+console.log(fruits)
+console.log(fruit)
+var joinArr = fruits.join()
+console.log(Array.from(joinArr))
+console.log(Array.isArray(joinArr))
+fruits.splice(0,3, 4)
+console.log(fruits)
+fruits.reverse()
+console.log(fruits)
+printDelimiter()
 
 //for
 var names = ['azamat','aiperi', 'akmaral', 'kamila', 'maksim', 'tim']
