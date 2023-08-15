@@ -5,4 +5,7 @@ for (var i in arrNums){
     }
 }
 //DZ3 NO/2
- var teg = ['li', 'div', 'li', 'p', 'h1', 'p', 'h1', 'div', 'div', 'li', 'h1',  'p', 'h1', 'ol’, br']
+ var teg = ['li', 'div', 'li', 'p', 'h1', 'p', 'h1', 'div', 'div', 'li','h1','p','h1','ol','br']
+console.log(typeof  teg)
+console.log(324)
+var dra = 231
