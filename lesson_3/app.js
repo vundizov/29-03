@@ -44,10 +44,10 @@ console.log(fruit)
 var joinArr = fruits.join()
 console.log(Array.from(joinArr))
 console.log(Array.isArray(joinArr))
-fruits.splice(0,3, 4)
-console.log(fruits)
-fruits.reverse()
-console.log(fruits)
+// fruits.splice(0,3, 4)
+// console.log(fruits)
+// fruits.reverse()
+// console.log(fruits)
 printDelimiter()
 
 //for
@@ -90,7 +90,7 @@ function printDelimiter() {
 }
 printDelimiter()
 //function-expression
-var strLog = function (text) {
+var strTog = function (text) {
     return alert(text)
 }
 strLog(prompt())

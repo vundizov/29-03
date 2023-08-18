@@ -9,6 +9,7 @@ for (var i = 0; i < arrNums.length; i++){
 console.log(newArray)
 
 
+
 //DZ3 NO/2
 var dataType = function (data) {
  console.log(typeof data)
