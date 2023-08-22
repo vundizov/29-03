@@ -21,7 +21,7 @@ function func() {
     }
     document.querySelector("#result").innerHTML = result;
 }
-
+//DZ5 NO/2
 const input = document.querySelector('#there')
 const buttonDec = document.querySelector('.dec')
 const buttonInk = document.querySelector('.ink')
@@ -32,7 +32,7 @@ buttonDec.onclick = () => {
 buttonInk.onclick = () => {
     input.value = parseInt(input.value) + 1
 }
-
+//DZ5 NO/3
 let newPrompt = document.querySelector('.prompt')
 let textP = document.querySelector('.text')
 
