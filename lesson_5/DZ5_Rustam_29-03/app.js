@@ -1,5 +1,5 @@
 //DZ5 NO/1
-let op;
+let op
 function func() {
 
     let result;
@@ -27,7 +27,7 @@ const buttonDec = document.querySelector('.dec')
 const buttonInk = document.querySelector('.ink')
 
 buttonDec.onclick = () => {
-    input.value = parseInt(input.value) + 1
+    input.value = parseInt(input.value) - 1
 }
 buttonInk.onclick = () => {
     input.value = parseInt(input.value) + 1
