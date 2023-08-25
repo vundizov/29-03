@@ -5,40 +5,40 @@ console.log(lesson)
 var lesson2 = null
 console.log(typeof lesson2)
 
-//NaN not a number
-// var notANumber = 67 * 'text'
-// console.log(notANumber)
-//
-// // switch..case
-// var age = Number(prompt('age'))
-// switch (age){
-//     case 24:
-//         console.error('Error')
-//         break
-//     case 25:
-//         console.error('Error')
-//         break
-//     case 26:
-//         alert('OK')
-//         break
-//     default:
-//         console.log('unknow age')
-// }
+// NaN not a number
+var notANumber = 67 * 'text'
+console.log(notANumber)
 
-// var color = prompt('введите цвет сфктофора')
-// switch (color){
-//     case 'red':
-//         console.log('stop')
-//         break
-//     case 'yellow':
-//         console.log('приготовьтесь')
-//         break
-//     case 'green':
-//         console.log('start')
-//         break
-//     default:
-//         console.log('вводите ккоректный цвет')
-// }
+// switch..case
+var age = Number(prompt('age'))
+switch (age){
+    case 24:
+        console.error('Error')
+        break
+    case 25:
+        console.error('Error')
+        break
+    case 26:
+        alert('OK')
+        break
+    default:
+        console.log('unknow age')
+}
+
+var color = prompt('введите цвет сфктофора')
+switch (color){
+    case 'red':
+        console.log('stop')
+        break
+    case 'yellow':
+        console.log('приготовьтесь')
+        break
+    case 'green':
+        console.log('start')
+        break
+    default:
+        console.log('вводите ккоректный цвет')
+}
 // object
 var user = {
     name: 'Rustam',
