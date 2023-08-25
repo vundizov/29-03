@@ -45,6 +45,6 @@ let emptyInput = () => {
 
 createButton.onclick = emptyInput;
 //DZ6 NO/2
-let array1 = ['Капитал Карлмарсона', 'Русский', 'Красная шапочка', 'война и мир']
+let array1 = ['Капитал КарлмарсоНа', 'Русский', 'КрасНая шапочка', 'война и мир']
 let array2 = array1.filter(filter => filter.includes('н') || filter.includes('Н'))
 console.log(array2)
