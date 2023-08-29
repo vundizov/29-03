@@ -1,33 +1,33 @@
 //ES6+
 //rest-параметры
-function getAllSum(...nums) {
-    let sum = nums.reduce((num1, num2)=> num1+num2)
-    console.log(sum)
-}
-getAllSum(4,3,2,4,6,7,8,)
-
-function convertUSD(usd, ...soms) {
-    console.log(usd, soms)
-    return soms.map(som => som / usd)
+// function getAllSum(...nums) {
+//     let sum = nums.reduce((num1, num2)=> num1+num2)
+//     console.log(sum)
+// }
+// getAllSum(4,3,2,4,6,7,8,)
 //
-}
-console.log(convertUSD(89, 34000,10000,23000,))
-
-const num1 = [1,2,3]
-const num2 = [3,4,5]
-const nums = [...num1, ...num2]
-console.log(nums)
-
-//default-params
-function pushJoin(separator, ...array) {
-    let result = ''
-    for (let i = 0; i < array.length; i++){
-        result += array[i] + (i === array.length -1 ? '' : separator)
-    }
-    return result
-}
-
-console.log(pushJoin( '/', 1,2,3,4,5))
+// function convertUSD(usd, ...soms) {
+//     console.log(usd, soms)
+//     return soms.map(som => som / usd)
+// //
+// }
+// console.log(convertUSD(89, 34000,10000,23000,))
+//
+// const num1 = [1,2,3]
+// const num2 = [3,4,5]
+// const nums = [...num1, ...num2]
+// console.log(nums)
+//
+// //default-params
+// function pushJoin(separator, ...array) {
+//     let result = ''
+//     for (let i = 0; i < array.length; i++){
+//         result += array[i] + (i === array.length -1 ? '' : separator)
+//     }
+//     return result
+// }
+//
+// console.log(pushJoin( '/', 1,2,3,4,5))
 
 //this-контекст
 // const user = {
