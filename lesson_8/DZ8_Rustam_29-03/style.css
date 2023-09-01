@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 250px;
+}
+.bgc {
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    border: 1px solid blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
